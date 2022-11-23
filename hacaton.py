@@ -73,7 +73,7 @@ def main():
         get_data(html)
         page +=1 
 
-with open('cars.csv', 'w') as file:
+with open('task2.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(['title', 'price', 'img', 'description'])
             
